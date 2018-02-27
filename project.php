@@ -6,9 +6,11 @@ $current_page_id="project";
 
 // otherwise positive.
 function print_projects(){
-  global $projects_time;
-  global $projects_detail;
-  foreach($projects_time as $name => $time) {
+    // sort the project by the ending time
+    sort_projects_by_time();
+    global $projects_time;
+    global $projects_detail;
+    foreach($projects_time as $name => $time) {
     echo "<div>";
     echo "<div id = 'projects_print' >";
     echo "<h3> $name </h3>";
@@ -25,8 +27,6 @@ function print_projects(){
     echo "</div>";
   }
 }
-
-
 
 ?>
 
@@ -56,13 +56,9 @@ function print_projects(){
     </p>
 
     <hr class = "separator">
-
     <?php
-    sort_projects_by_time();
     print_projects();
     ?>
-
-
   </div>
   <div style = "margin: 100px">
   </div>

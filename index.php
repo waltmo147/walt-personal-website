@@ -16,8 +16,8 @@ $current_page_id="index";
   <title>Home - <?php echo $title;?></title>
 </head>
 
-<body id = "index_background">
-      <?php include("includes/header.php");?>
+<body id="index_background">
+  <?php include("includes/header.php");?>
   <div class = "home">
     <div class = "front">
       <p class = "front-title1">

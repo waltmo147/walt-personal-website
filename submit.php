@@ -13,6 +13,7 @@ if (isset($_POST["submit"])) {
   $messege = $_POST["messege"];
 }
 
+// function to filter the input
 function get_input() {
   global $email;
   global $first_name;

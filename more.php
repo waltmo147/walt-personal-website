@@ -15,7 +15,7 @@ $current_page_id="more";
   <title>Home - <?php echo $title;?></title>
 </head>
 
-<body id = "more_background">
+<body id="more_background">
 
   <?php include("includes/header.php");?>
 
