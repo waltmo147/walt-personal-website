@@ -57,7 +57,7 @@ $current_page_id="more";
       <img src = "/images/billiard.jpg" alt="Billiards">
 
       <p class = "bio-text padding">
-        I was really good at Billiards and I love watching Snooker games. I was the
+        I was really into Billiards and I love watching Snooker games. I was the
         vice president of the Billiards club in the school. And I was ranked top 10 in
         Nanjing city among college students. Even though I don't have time for it currently,
         I still watch Snooker occasionally.
@@ -88,8 +88,7 @@ $current_page_id="more";
         But Friends has always been my favorite. It changed me a lot and motivated me to study and chase my career in the US.
       </p>
     </div>
-
-
+    
   </div>
 
   <div style = "margin: 100px">

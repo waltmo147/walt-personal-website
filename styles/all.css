@@ -23,10 +23,6 @@ html, body
   position: relative;
 }
 
-footer {
-  /* bottom: 0; */
-}
-
 p.front-title1 {
   text-align: center;
   font-size: 40px;
@@ -209,7 +205,7 @@ h3.page_header {
 div.icons {
   text-align: center;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
 }
 
@@ -379,6 +375,7 @@ p.likes {
 } */
 
 footer {
+  min-width: 992px;
   padding: 10px 10px;
   background-color: rgba(0,0,0,0.75);
 }
@@ -442,29 +439,6 @@ img {
 
 .hidden {
   display: none;
-}
-
-/* Table Stylings */
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td,th {
-  border: 1px solid;
-  border-color: #3498db;
-  text-align: center;
-  padding: 10px;
-  width: 10%;
-}
-
-.dark_col {
-  background-color: #d4E6f1;
-}
-
-.light_col {
-  background-color: #edf4fc;
 }
 
 #current_page {
@@ -633,6 +607,25 @@ legend {
   font-size: 150%;
   margin-left: 42px;
   font-weight: thin;
+}
+
+.refer {
+  /* display: inline; */
+  text-align: center;
+  padding-top: 0px;
+  min-width: 992px;
+  width: 100%;
+}
+
+a.references:hover {
+  color: white;
+}
+
+.refer_a {
+  margin: 5px;
+  color: grey;
+  /* display: inline; */
+  /* text-align: center; */
 }
 
 .thank {

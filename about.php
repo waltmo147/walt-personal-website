@@ -58,9 +58,18 @@ $current_page_id="about";
         </p>
       </div>
     </div>
-
   </div>
-  <div style = "margin: 100px">
+  <div class = "refer">
+      <a class = "refer_a"> Images are from: </a>
+      <a class = "refer_a references" href="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=676a652dba014a9095334eefc81e5277/64380cd7912397ddd839429b5a82b2b7d1a287e9.jpg">
+         YALI <a class = "refer_a">|</a>
+      </a>
+      <a class = "refer_a references" href="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=98251740,2347058529&fm=27&gp=0.jpg">
+         SEU <a class = "refer_a">|</a>
+      </a>
+      <a class = "refer_a references" href="http://www.themaulerinstitute.com/universities/cornell-university.html">
+         CORNELL
+      </a>
   </div>
   <?php include("includes/footer.php");?>
 

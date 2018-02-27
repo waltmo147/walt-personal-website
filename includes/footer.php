@@ -20,5 +20,12 @@
       </a>
     </div>
   <!-- </div> -->
-
+  <div class = "refer">
+      <a class = "refer_a">
+         Icons are from:
+      </a>
+      <a class = "refer_a references" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         cloudflare
+      </a>
+  </div>
 </footer>
